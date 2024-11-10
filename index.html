@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ReceitAI</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <div>
+                    <h2>22 de Setembro</h2>
+                    <h1>Olá, Victor!</h1>
+                </div>
+                <img src="img/perfil.png" alt="">
+            </header>
+
+            <section class="buscar">
+                <input type="text" name="ingrediente" id="ingrediente" placeholder="Quais ingredientes você tem ai ?">
+            </section>
+
+            <section class="sabores">
+                <p>Escolha o tipo de sabor qeu você deseja</p>
+                <div>
+                    <button class="sabor" onclick="SelecionarSabor(this,'doce')">Doce</button>
+                    <button class="sabor" onclick="SelecionarSabor(this,'salgado')">Salgado</button>
+                    <button class="sabor" onclick="SelecionarSabor(this,'agridoce')">Agridoce</button>
+
+                </div>
+
+            </section>
+
+            <section class="refeicoes">
+                <p>Escolha para qual refeição você gostaria</p>
+                <button>
+                    <span>Café da manhã</span>
+                    <img src="img/cafe.png" onclick="SelecionarRefeicao(this, 'cafe_da_manha')" class="refeicao" alt="Café da Manhã">
+                </button>
+
+                <button>
+                    <span>Almoço</span>
+                    <img src="img/almoco.png" onclick="SelecionarRefeicao(this, 'almoco')" class="refeicao"  alt="Almoço">
+                </button>
+
+                <button>
+                    <span>Jantar</span>
+                    <img src="img/jantar.png" onclick="SelecionarRefeicao(this, 'jantar')" class="refeicao"  alt="Jantar">
+                </button>
+            </section>
+
+            <button class="gerar_receitas" onclick="GerarReceita()">
+                   Gerar receita
+            </button>
+
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>

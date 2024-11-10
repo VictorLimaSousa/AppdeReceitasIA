@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <h2>22 de Setembro</h2>
+                <h1>Olá, Victor!</h1>
+            </div>
+            <img src="img/perfil.png" alt="">
+        </header>
+
+        <section class="botoes_resultados">
+            <button onclick="Gerar_nova_receita()">Gerar receita</button>
+            <button onclick="voltar()">Voltar</button>
+        </section>
+
+        <h2 class="subtitulo">Sugestão de receitas</h2>
+
+        <section class="escolhas">
+
+            <section class="refeicoes">
+                
+                <button id="cafe_da_manha">
+                    <span>Café da manhã</span>
+                    <img src="img/cafe.png" alt="Café da Manhã">
+                </button>
+
+                <button id="almoco">
+                    <span>Almoço</span>
+                    <img src="img/almoco.png" alt="Almoço">
+                </button>
+
+                <button id="jantar">
+                    <span>Jantar</span>
+                    <img src="img/jantar.png" alt="Jantar">
+                </button>
+
+                <section class="sabores">
+                   
+                    <div>
+                        <button class="sabor" id="doce">Doce</button>
+                        <button class="sabor" id="salgado">Salgado</button>
+                        <button class="sabor" id="agridoce">Agridoce</button>
+    
+                    </div>
+    
+                </section>
+
+            </section>
+
+        </section>
+
+        <section class="resultados">
+            Carregando..
+        </section>
+
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
