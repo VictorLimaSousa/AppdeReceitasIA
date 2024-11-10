@@ -1,2 +1,4 @@
 # AppdeReceitasIA
-O Chef Inteligente usa IA para criar receitas práticas com os ingredientes que você tem. Basta informar os alimentos e preferências, e o app sugere pratos variados e rápidos, otimizando seu dia a dia e aproveitando ao máximo os itens disponíveis na sua cozinha.
+Apresentamos o aplicativo de receitas, uma solução inovadora que combina praticidade e tecnologia de ponta para simplificar a rotina alimentar. Este aplicativo permite que você insira os ingredientes disponíveis em sua cozinha e selecione preferências, como tipos de refeição. Com o auxílio da inteligência artificial, o app gera uma seleção personalizada de receitas fáceis, práticas e adaptadas aos seus ingredientes e escolhas.
+Ao utilizar algoritmos avançados de IA, o aplicativo analisa as opções selecionadas e sugere combinações nutritivas e variadas, permitindo que você explore novas possibilidades culinárias a cada refeição. Além disso, o app prioriza receitas que otimizam o uso dos alimentos, reduzindo desperdícios e promovendo uma alimentação balanceada e sustentável.
+
